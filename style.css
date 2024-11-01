@@ -6,6 +6,10 @@
     font-family: 'Poppins';
     box-sizing: border-box;
 }
+/* }
+body{
+    position: relative;
+} */
 
 .navbar{
     display: flex;
@@ -50,11 +54,21 @@
 }
 
 .Container{
+
+    position: relative;
     display: flex;
     margin: 25vh;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     /* margin-bottom: 2px; */
+}
+
+.kali img{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
 }
 
 main{
@@ -67,6 +81,7 @@ main{
 .titre{
     margin: 10px;
     padding: 10px;
+    position:relative;
 }
 
 .Container img{
@@ -75,6 +90,7 @@ main{
 }
 
 .service{
+    /* display: flex; */
     justify-items: center;
     align-items: center;
     align-content: center;
@@ -83,12 +99,12 @@ main{
 }
 
 .carte{
-
     display: flex;
     /* flex-direction: row; */
     flex-wrap: nowrap; 
     justify-content: space-around; 
     gap: 15px;  
+    margin:30px;
 }
 
 .carte button{
