@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 15px; */
+    padding: 10px;
+    background-color: rgb(241, 186, 5);
+    position:fixed;
+    opacity: 76%;
+    background-blend-mode: color-burn;
+    top:0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    color: white;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.link a {
+    color: white;
+}
+
+.link button{
+
+    padding: 10px;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(7, 8, 56);
+    border: 1px solid rgb(7, 8, 56);
+}
+
+.Container{
+    display: flex;
+    margin: 25vh;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 2px; */
+}
+
+main{
+    background-image: url(assets/etudiant-heureux-duniversite-dans-des-lunettes-avec-lordinateur-portatif-de-fixation-de-sac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(65%);
+}
+
+.titre{
+    margin: 10px;
+    padding: 10px;
+}
+
+.Container img{
+
+    width: 400px;
+}
+
+.service{
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.carte{
+
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap; 
+    justify-content: space-around; 
+    gap: 15px;  
+}
+
+.carte button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(139, 231, 0);
+    border:  rgb(139, 231, 0);
+}
+
+.carte button:hover{
+    transition: .2s ease-in-out;
+    background-color:  rgb(216, 255, 158);;
+    color: goldenrod;
+}
+
+.card1{
+    background-color: yellow;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+
+    background-color: yellowgreen;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card3{
+
+    background-color: yellowgreen;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4{
+
+    background-color: yellowgreen;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card5{
+
+    background-color: yellowgreen;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card6{
+
+    background-color: yellowgreen;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1:hover{
+
+    transition: .6s ease-out;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.card2:hover{
+
+    transition: .6s ease-out;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.card3:hover{
+
+    transition: .6s ease-out;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.card4:hover{
+
+    transition: .6s ease-out;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.card5:hover{
+
+    transition: .6s ease-out;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.card6:hover{
+
+    transition: .6s ease-out;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.card7:hover{
+
+    transition: .2s;
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+footer{
+    justify-items: center;
+    font-weight: normal;
+    background-color: rgb(236, 213, 7);
+    padding: 20px;
+}
+/* 
+----------------Responsive------------- */
+
+@media (max-width:1328px) {
+    .navbar{
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+    }
+
+    .menu{
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+    }
+
+    /* .link{ */
+        /* display: none;
+
+    } */
+}
